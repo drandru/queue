@@ -1,0 +1,26 @@
+{
+  "name": "drandru/queue",
+  "type": "library",
+  "description": "queue for symfony projects",
+  "autoload": {
+    "psr-4": {
+      "DRD\\Queue\\": "src/DRD/Queue"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "symfony/framework-bundle": "4.3.*",
+    "php-amqplib/rabbitmq-bundle": "^1.14",
+    "drandru/general": "4.3.*"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^3.0",
+    "phpunit/phpunit": "^5.0"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:drandru/general.git"
+    }
+  ]
+}
